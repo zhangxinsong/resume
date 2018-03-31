@@ -4,7 +4,8 @@ $(function () {
 		resize : true,
 		navigation : true,
 		navigationPosition : 'right',
-		easing : 'ease-in-out'
+		css3:false,
+		easing : 'easeInOutElastic'
 	});
 	$('#details').click(function(){
 		var i = 0;

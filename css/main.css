@@ -142,6 +142,7 @@ body{
 	height: 150px;
 	border: 1px solid #fff;
 	margin: 10px 0 0 10px;
+	color: #f47920;
 }
 .project img{
 	width: 60px;
@@ -150,6 +151,11 @@ body{
 	float: left;
 	margin: 20px;
 	margin-top: 50px;
+	opacity: 0.5;
+}
+.project span a{
+	text-decoration: none;
+	color: #f47920;
 }
 #MyWeiYa .active .contain .project-box .project:nth-child(1){
 	animation:three 2.5s ease both;
@@ -194,6 +200,7 @@ body{
 	animation-delay: 1.6s;
 }
 #download{
+	text-decoration: none;
 	padding: 5px 8px;
 	color: white;
 	background-color: green;
